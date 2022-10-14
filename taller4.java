@@ -45,30 +45,32 @@ public class taller4 {
 		 */
 		if (i == 1) {
 			System.out.print(i + ") "
-					+ "");
+					+ "ELABORAR UN ALGORITMO QUE LE PERMITA AL USUARIO LEER 3 NÚMERO Y EL COMPUTADOR LE IMPRIMA EL MENOR DE ELLOS.");
+
+			
 
 			Scanner a = new Scanner(System.in);
-			System.out.println("\n ");
-			String he = a.next();
-
-			Scanner aa = new Scanner(System.in);
-			System.out.println("\n ");
-			int e = aa.nextInt();
+			System.out.println("\n Ingresa un numero");
+			int numero1 = a.nextInt();
 
 			Scanner b = new Scanner(System.in);
-			System.out.println("\n ");
-			String her = b.next();
+			System.out.println("\n ingresa el segundo numero ");
+			String numero2 = b.next();
 
-			Scanner bb = new Scanner(System.in);
-			System.out.println("\n ");
-			int ed = bb.nextInt();
+			Scanner c = new Scanner(System.in);
+			System.out.println("\n ingresa el tercer numero");
+			int numero3 = c.nextInt();
 
-			if (e > ed) {
-				System.out.print("\n e" + "");
-				System.out.print("\n :" + "" + "\n \n");
-			} else {
-				System.out.print("\n " + "");
-				System.out.print("\n " + "" + "\n \n");
+			if (numero1 > numero2 && numero1 > numero3 ) {
+				System.out.print("\n El numero mayor es " + numero1 +"\n\n");
+				
+			}
+			if (numero2 > numero1 && numero2 > numero3 ) {
+				System.out.print("\n El numero mayor es " + numero2 +"\n\n");
+				
+			}
+			 else {
+				System.out.print("\n El numero mayor es " + numero3 +"\n\n");
 			}
 
 			taller4.main(null);
@@ -77,54 +79,58 @@ public class taller4 {
 
 		if (i == 2) {
 			System.out.print(i + ") "
-					+ "");
+					+ "CREAR UN ALGORITMO QUE LE PERMITA AL USUARIO INGRESAR EL NOMBRE DE UN ESTUDIANTE Y LAS 4 NOTAS QUE OBTUVO EN UNA MATERIA Y EL COMPUTADOR LE IMPRIMA EL NOMBRE, 
+						LA NOTA DEFINITIVA Y UN MENSAJE QUE LE INDIQUE SI “GANA“, “HABILITA” O “PIERDE” .");
 
 			Scanner a = new Scanner(System.in);
-			System.out.println("\n ");
-			String he = a.next();
-
-			Scanner aa = new Scanner(System.in);
-			System.out.println("\n ");
-			int e = aa.nextInt();
+			System.out.println("\n Ingresa el nombre del estudiante");
+			String nestu = a.next();
 
 			Scanner b = new Scanner(System.in);
-			System.out.println("\n ");
-			String her = b.next();
+			System.out.println("\n ingresa la nota 1");
+			int nota1 = b.nextInt();
 
-			Scanner bb = new Scanner(System.in);
-			System.out.println("\n ");
-			int ed = bb.nextInt();
+			Scanner c = new Scanner(System.in);
+			System.out.println("\n ingresa la nota 2");
+			String nota2 = c.next();
 
-			if (e > ed) {
-				System.out.print("\n e" + "");
-				System.out.print("\n :" + "" + "\n \n");
-			} else {
-				System.out.print("\n " + "");
-				System.out.print("\n " + "" + "\n \n");
+			Scanner d = new Scanner(System.in);
+			System.out.println("\n ingresa la nota 3");
+			int nota3 = d.nextInt();
+
+			int total= ((nota1*nota2*nota3)/3);
+
+
+
+			if (total > 3) {
+				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Gana "+ "\n \n");
+			}
+			if (total < 3 && total > 2) {
+				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Habilita "+ "\n \n");
+			}
+			 else {
+				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Pierde "+ "\n \n");
 			}
 
+			
 			taller4.main(null);
 
 		}
 		if (i == 3) {
 			System.out.print(i + ") "
-					+ "");
+					+ "CREAR UN ALGORITMO QUE LE PERMITA AL USUARIO INGRESAR 3 NÚMEROS Y EL COMPUTADOR SE LOS MUESTRE EN ORDEN ASCENDENTE");
 
 			Scanner a = new Scanner(System.in);
-			System.out.println("\n ");
-			String he = a.next();
-
-			Scanner aa = new Scanner(System.in);
-			System.out.println("\n ");
-			int e = aa.nextInt();
+			System.out.println("\n Ingresa un numero");
+			int numero1 = a.nextInt();
 
 			Scanner b = new Scanner(System.in);
-			System.out.println("\n ");
-			String her = b.next();
+			System.out.println("\n ingresa el segundo numero ");
+			String numero2 = b.next();
 
-			Scanner bb = new Scanner(System.in);
-			System.out.println("\n ");
-			int ed = bb.nextInt();
+			Scanner c = new Scanner(System.in);
+			System.out.println("\n ingresa el tercer numero");
+			int numero3 = c.nextInt();
 
 			if (e > ed) {
 				System.out.print("\n e" + "");
