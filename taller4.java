@@ -91,23 +91,24 @@ public class taller4 {
 
 			Scanner c = new Scanner(System.in);
 			System.out.println("\n ingresa la nota 2");
-			String nota2 = c.next();
+			int nota2 = c.nextInt();
 
 			Scanner d = new Scanner(System.in);
 			System.out.println("\n ingresa la nota 3");
 			int nota3 = d.nextInt();
 
-			int total= ((nota1*nota2*nota3)/3);
+			double total= ((nota1*nota2*nota3)/3);
 
 
 
 			if (total >= 3) {
 				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Gana "+ "\n \n");
 			}
-			if (total =< 3 && total >= 2) {
+			if(total < 3 && total >= 2) 
+                        {
 				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Habilita "+ "\n \n");
 			}
-			 else {
+			 else{
 				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Pierde "+ "\n \n");
 			}
 
@@ -125,13 +126,13 @@ public class taller4 {
 
 			Scanner b = new Scanner(System.in);
 			System.out.println("\n ingresa el segundo numero ");
-			String numero2 = b.next();
+			int numero2 = b.nextInt();
 
 			Scanner c = new Scanner(System.in);
 			System.out.println("\n ingresa el tercer numero");
 			int numero3 = c.nextInt();
 
-			if (e > ed) {
+			if (numero1 > numero2) {
 				System.out.print("\n e" + "");
 				System.out.print("\n :" + "" + "\n \n");
 			} else {
