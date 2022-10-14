@@ -61,7 +61,7 @@ public class taller4 {
 			System.out.println("\n ingresa el tercer numero");
 			int numero3 = c.nextInt();
 
-			if ((numero1 >= numero3) && (numero1 >= numero2)) {
+			if ((numero1 > numero3) && (numero1 > numero2)) {
 				System.out.print("\n El numero mayor es " + numero1 +"\n\n");
 				
 			}
@@ -101,10 +101,10 @@ public class taller4 {
 
 
 
-			if (total > 3) {
+			if (total >= 3) {
 				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Gana "+ "\n \n");
 			}
-			if (total < 3 && total > 2) {
+			if (total =< 3 && total >= 2) {
 				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Habilita "+ "\n \n");
 			}
 			 else {
