@@ -55,17 +55,17 @@ public class taller4 {
 
 			Scanner b = new Scanner(System.in);
 			System.out.println("\n ingresa el segundo numero ");
-			String numero2 = b.next();
+			int numero2 = b.nextInt();
 
 			Scanner c = new Scanner(System.in);
 			System.out.println("\n ingresa el tercer numero");
 			int numero3 = c.nextInt();
 
-			if (numero1 > numero2 && numero1 > numero3 ) {
+			if ((numero1 >= numero3) && (numero1 >= numero2)) {
 				System.out.print("\n El numero mayor es " + numero1 +"\n\n");
 				
 			}
-			if (numero2 > numero1 && numero2 > numero3 ) {
+			if ((numero2 > numero1 )&& (numero2 > numero3) ) {
 				System.out.print("\n El numero mayor es " + numero2 +"\n\n");
 				
 			}
@@ -79,8 +79,7 @@ public class taller4 {
 
 		if (i == 2) {
 			System.out.print(i + ") "
-					+ "CREAR UN ALGORITMO QUE LE PERMITA AL USUARIO INGRESAR EL NOMBRE DE UN ESTUDIANTE Y LAS 4 NOTAS QUE OBTUVO EN UNA MATERIA Y EL COMPUTADOR LE IMPRIMA EL NOMBRE, 
-						LA NOTA DEFINITIVA Y UN MENSAJE QUE LE INDIQUE SI “GANA“, “HABILITA” O “PIERDE” .");
+					+ "CREAR UN ALGORITMO QUE LE PERMITA AL USUARIO INGRESAR EL NOMBRE DE UN ESTUDIANTE Y LAS 4 NOTAS QUE OBTUVO EN UNA MATERIA Y EL COMPUTADOR LE IMPRIMA EL NOMBRE,LA NOTA DEFINITIVA Y UN MENSAJE QUE LE INDIQUE SI “GANA“, “HABILITA” O “PIERDE” .");
 
 			Scanner a = new Scanner(System.in);
 			System.out.println("\n Ingresa el nombre del estudiante");
