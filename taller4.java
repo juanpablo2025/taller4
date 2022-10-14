@@ -87,17 +87,21 @@ public class taller4 {
 
 			Scanner b = new Scanner(System.in);
 			System.out.println("\n ingresa la nota 1");
-			int nota1 = b.nextInt();
+			double nota1 = b.nextDouble();
 
 			Scanner c = new Scanner(System.in);
 			System.out.println("\n ingresa la nota 2");
-			int nota2 = c.nextInt();
+			double nota2 = c.nextDouble();
 
 			Scanner d = new Scanner(System.in);
 			System.out.println("\n ingresa la nota 3");
-			int nota3 = d.nextInt();
+			double nota3 = d.nextDouble();
+                        
+                        Scanner e = new Scanner(System.in);
+			System.out.println("\n ingresa la nota 4");
+			double nota4 = e.nextDouble();
 
-			double total= ((nota1*nota2*nota3)/3);
+			double total= ((nota1*nota2*nota3*nota4)/4);
 
 
 
