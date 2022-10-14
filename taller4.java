@@ -1,29 +1,24 @@
 /*
- * 1. Elabore un algoritmo que permita averiguar cuál es el nombre del mayor de
- * 2 hermanos no gemelos. Como datos de entrada se tiene el nombre y la edad de
- * las 2 personas.
- * 
- * 2. Elabore un algoritmo que lea el nombre, el salario bruto, las deducciones
- * y las bonificaciones de dos trabajadores, e imprima el nombre del que más
- * salario neto tiene.
- * 
- * 3. Crear un algoritmo que le permita al usuario ingresar los datos de dos
- * buses así: Placa, El número de pasajeros transportado y el valor del pasaje,
- * y el computador le muestre la placa del bus que más dinero recogió.
- * 
- * 4. Elaborar un algoritmo donde el usuario ingrese la placa de un bus, el
- * número de pasajeros transportados y la ruta donde prestó el servicio ( A o B)
- * el computador le debe mostrar el dinero que recolectó sabiendo que en la ruta
- * A el pasaje es a $1.200.oo y en la B a $1.000.oo
- * 
- * 5. Crear un algoritmo que le permita al usuario ingresar el tipo de
- * trabajador (FIJO o TEMPORAL) y con base en esto pueda imprimir el nombre y el
- * salario neto, sabiendo que si es FIJO debe leer el nombre, el número de horas
- * trabajadas, el salario básico hora,
- * el total de deducciones y el total de bonificaciones y si es TEMPORAL solo
- * debe leer el nombre y el número de horas trabajadas; estos trabajadores
- * tienen un salario básico hora fijo de $6.000.oo y no tienen deducciones ni
- * bonificaciones.
+ *1. ELABORAR UN ALGORITMO QUE LE PERMITA AL USUARIO LEER 3 NÚMERO Y EL COMPUTADOR LE IMPRIMA EL MENOR DE ELLOS.
+
+2. CREAR UN ALGORITMO QUE LE PERMITA AL USUARIO INGRESAR EL NOMBRE DE UN ESTUDIANTE Y LAS 4 NOTAS QUE OBTUVO EN UNA MATERIA Y EL COMPUTADOR LE IMPRIMA EL NOMBRE, 
+LA NOTA DEFINITIVA Y UN MENSAJE QUE LE INDIQUE SI “GANA“, “HABILITA” O “PIERDE” .
+
+3. CREAR UN ALGORITMO QUE LE PERMITA AL USUARIO INGRESAR 3 NÚMEROS Y EL COMPUTADOR SE LOS MUESTRE EN ORDEN ASCENDENTE
+
+4. Se necesita un programa que diga si una persona es apta para un equipo de baloncesto o no, para que sea apto debe cumplir 
+que si es hombre sea mayor de edad, que mida mas de 1.70 mts., que pese menos de 75 kg., o si es mujer que tenga más de 16 años,
+que mida como mínimo 1.70 y que pese como máximo 60 kg. Se debe leer el nombre, el sexo (F = femenino, M = masculino), la edad, la estatura y el peso.
+
+5. LABORAR UN PROGRAMA QUE LE PERMITA A UN USUARIO INGRESAR EL NOMBRE DE UN TRABAJADOR, Y EL NÚMERO DE HORAS TRABAJADAS, SE PIDE QUE EL PROGRAMA LE IMPRIMA
+EL SALARIO BRUTO, LAS BONIFICACIONES, LAS DEDUCCIONES Y EL SALARIO NETO; TENIENDO EN CUENTA QUE LAS BONIFICACIONES SERÁN DE $20.000.OO SI TRABAJÓ COMO MÁXIMO 48 HORAS,
+DE $50.000.OO SI TRABAJO ENTRE 49 Y 58 HORAS Y DE $100.000 SI TRABAJÓ MÁS DE 58 HORAS. LAS DEDUCCIONES SON DE $10.000 SI EL SALARIO BÁSICO HORA ES MENOR DE $5.000.OO, DE $20.000.OO
+SI EL SALARIO BÁSICO HORA ES MAYOR DE $5.000.OO Y MENOR DE $8.000.OO Y DE $ 50.000.OO SI SU SALARIO BÁSICO HORA ES DE $8.000.OO O MAS.
+
+6. PARA LA MATERIA DE DESTREZAS SE DETERMINÓ CON LOS ESTUDIANTES QUE, SI LA NOTA DEL PRIMER QUIZ ERA MENOR QUE LA DEL SEGUNDO, SE SUSTITUÍA LA PRIMERA NOTA POR LA SEGUNDA. 
+ELABORE UN ALGORITMO QUE LE PERMITA AL PROFESOR INGRESAR LAS 4 NOTAS QUE OBTUVO UN ALUMNO Y EL COMPUTADOR LE MUESTRE LA NOTA DEFINITIVA Y LA CALIFICACIÓN CUALITATIVA QUE ES: 
+“E” SI ES MAYOR O IGUAL A 4.5, “S” SI ES MAYOR O IGUAL A 4.0 Y MENOR DE 4.5, “B” SI ES MAYOR O IGUAL A 3.5 Y MENOR DE 4.0, “A” SI ES MAYOR O IGUAL A 3.0 Y MENOR DE 3.5, “D” SI ES MAYOR O IGUAL A 2.0 
+Y MENOR DE 3.0 E “I” SI ES MENOR DE 2.0
  */
 
 import java.util.Scanner;
@@ -33,7 +28,7 @@ import java.util.Scanner;
  * @author FX6300
  * 
  */
-public class taller3 {
+public class taller4 {
 
 	/**
 	 * @param args the command line arguments
@@ -50,178 +45,196 @@ public class taller3 {
 		 */
 		if (i == 1) {
 			System.out.print(i + ") "
-					+ "Elabore un algoritmo que permita averiguar cuál es el nombre del mayor de 2 hermanos no gemelos. Como datos de entrada se tiene el nombre y la edad de las 2 personas.");
+					+ "");
 
 			Scanner a = new Scanner(System.in);
-			System.out.println("\n Digita nombre hermano 1");
+			System.out.println("\n ");
 			String he = a.next();
 
 			Scanner aa = new Scanner(System.in);
-			System.out.println("\n Digita la edad");
+			System.out.println("\n ");
 			int e = aa.nextInt();
 
 			Scanner b = new Scanner(System.in);
-			System.out.println("\n Digita nombre hermano 2");
+			System.out.println("\n ");
 			String her = b.next();
 
 			Scanner bb = new Scanner(System.in);
-			System.out.println("\n Digita la edad");
+			System.out.println("\n ");
 			int ed = bb.nextInt();
 
 			if (e > ed) {
-				System.out.print("\n el hermano mayor es " + he);
-				System.out.print("\n edad:" + e + "\n \n");
+				System.out.print("\n e" + "");
+				System.out.print("\n :" + "" + "\n \n");
 			} else {
-				System.out.print("\n el hermano mayor es :" + her);
-				System.out.print("\n edad:" + ed + "\n \n");
+				System.out.print("\n " + "");
+				System.out.print("\n " + "" + "\n \n");
 			}
 
-			taller3.main(null);
+			taller4.main(null);
 
 		}
 
 		if (i == 2) {
 			System.out.print(i + ") "
-					+ "Elabore un algoritmo que lea el nombre, el salario bruto, las deducciones y las bonificaciones de dos trabajadores, e imprima el nombre del que más salario neto tiene.");
+					+ "");
 
 			Scanner a = new Scanner(System.in);
-			System.out.println("\n Digita el nombre 1");
-			String e = a.next();
+			System.out.println("\n ");
+			String he = a.next();
 
 			Scanner aa = new Scanner(System.in);
-			System.out.println("\n Digita el salario");
-			int ee = aa.nextInt();
-
-			Scanner aaa = new Scanner(System.in);
-			System.out.println("\n Digita las deducciones");
-			int eee = aaa.nextInt();
-
-			Scanner aaaa = new Scanner(System.in);
-			System.out.println("\n Digita las bonificaciones");
-			int eeee = aaaa.nextInt();
+			System.out.println("\n ");
+			int e = aa.nextInt();
 
 			Scanner b = new Scanner(System.in);
-			System.out.println("\n Digita el nombre 2");
-			String o = b.next();
+			System.out.println("\n ");
+			String her = b.next();
 
 			Scanner bb = new Scanner(System.in);
-			System.out.println("\n Digita el salario");
-			int oo = bb.nextInt();
+			System.out.println("\n ");
+			int ed = bb.nextInt();
 
-			Scanner bbb = new Scanner(System.in);
-			System.out.println("\n Digita las deducciones");
-			int ooo = bbb.nextInt();
-
-			Scanner bbbb = new Scanner(System.in);
-			System.out.println("\n Digita las bonificaciones");
-			int oooo = bbbb.nextInt();
-
-			int total1 = (ee - eee + eeee);
-			int total2 = (oo - ooo + oooo);
-
-			if (total1 > total2) {
-				System.out.print("\n el salario mayor es de " + e + " con " + total1 + "\n\n");
-
+			if (e > ed) {
+				System.out.print("\n e" + "");
+				System.out.print("\n :" + "" + "\n \n");
 			} else {
-				System.out.print("\n el salario mayor es de " + o + " con " + total2 + "\n\n");
-
+				System.out.print("\n " + "");
+				System.out.print("\n " + "" + "\n \n");
 			}
 
-			taller3.main(null);
+			taller4.main(null);
+
 		}
 		if (i == 3) {
 			System.out.print(i + ") "
-					+ "Crear un algoritmo que le permita al usuario ingresar los datos de dos buses así: Placa, El número de pasajeros transportado y el valor del pasaje,y el computador le muestre la placa del bus que más dinero recogió.");
+					+ "");
+
 			Scanner a = new Scanner(System.in);
-			System.out.println("\n Digita la placa del bus 1");
-			String e = a.next();
+			System.out.println("\n ");
+			String he = a.next();
 
 			Scanner aa = new Scanner(System.in);
-			System.out.println("\n Digita el numero de pasajeros");
-			int ee = aa.nextInt();
-
-			Scanner aaa = new Scanner(System.in);
-			System.out.println("\n Digita el valor del pasaje");
-			int eee = aaa.nextInt();
+			System.out.println("\n ");
+			int e = aa.nextInt();
 
 			Scanner b = new Scanner(System.in);
-			System.out.println("\n Digita la placa dele bus 2 ");
-			String o = b.next();
+			System.out.println("\n ");
+			String her = b.next();
 
 			Scanner bb = new Scanner(System.in);
-			System.out.println("\n Digita el numero de pasajeros");
-			int oo = bb.nextInt();
+			System.out.println("\n ");
+			int ed = bb.nextInt();
 
-			Scanner bbb = new Scanner(System.in);
-			System.out.println("\n Digita el valor del pasaje");
-			int ooo = bbb.nextInt();
-
-			int total1 = oo * ooo;
-			int total2 = ee * eee;
-
-			if (ooo > eee) {
-				System.out.print("\n el dinero realizado es " + total1 + " del bus: " + o + "\n\n");
-
+			if (e > ed) {
+				System.out.print("\n e" + "");
+				System.out.print("\n :" + "" + "\n \n");
 			} else {
-				System.out.print("\n el dinero realizado es " + total2 + " del bus: " + e + "\n\n");
-
+				System.out.print("\n " + "");
+				System.out.print("\n " + "" + "\n \n");
 			}
 
-			taller3.main(null);
+			taller4.main(null);
+
 		}
                 if (i == 4) {
 			System.out.print(i + ") "
-					+ "Elaborar un algoritmo donde el usuario ingrese la placa de un bus,número de pasajeros transportados y la ruta donde prestó el servicio ( A o B)\n el computador le debe mostrar el dinero que recolectó sabiendo que en la ruta\n A el pasaje es a $1.200.oo y en la B a $1.000.oo");
+					+ "");
+
 			Scanner a = new Scanner(System.in);
-			System.out.println("\n Digita la placa del bus 1");
-			String e = a.next();
+			System.out.println("\n ");
+			String he = a.next();
 
 			Scanner aa = new Scanner(System.in);
-			System.out.println("\n Digita el numero de pasajeros");
-			int ee = aa.nextInt();
-
-			Scanner aaa = new Scanner(System.in);
-			System.out.println("\n Digita el tipo de ruta ");
-			String eee = aaa.next();
+			System.out.println("\n ");
+			int e = aa.nextInt();
 
 			Scanner b = new Scanner(System.in);
-			System.out.println("\n Digita la placa dele bus 2 ");
-			String o = b.next();
+			System.out.println("\n ");
+			String her = b.next();
 
 			Scanner bb = new Scanner(System.in);
-			System.out.println("\n Digita el numero de pasajeros");
-			int oo = bb.nextInt();
+			System.out.println("\n ");
+			int ed = bb.nextInt();
 
-			Scanner bbb = new Scanner(System.in);
-			System.out.println("\n Digita el tipo de ruta");
-			String ooo = bbb.next();
-                        
-                        int  pasaje1= 1200;
-                        int  pasaje2= 2000;
-                        
-                        int total1=pasaje1*ee;
-                        int total2=pasaje2*oo;
-                        
-
-	 		
-
-			if(eee.equals("A")) {
-				System.out.print("\n realizado " + total1 +" del bus: " + o + "\n\n");
-
-			} 
-                        
-                        if(ooo.equals("B")) {
-				System.out.print("\n bbbbb es " + total2 + " del bus: " + o + "\n\n");
-
-			} 
-                                
-                        else {
-				System.out.print("\n  Digita A o B  \n\n");
-
+			if (e > ed) {
+				System.out.print("\n e" + "");
+				System.out.print("\n :" + "" + "\n \n");
+			} else {
+				System.out.print("\n " + "");
+				System.out.print("\n " + "" + "\n \n");
 			}
 
-			taller3.main(null);
+			taller4.main(null);
+
 		}
+                if (i == 5) {
+			System.out.print(i + ") "
+					+ "");
+
+			Scanner a = new Scanner(System.in);
+			System.out.println("\n ");
+			String he = a.next();
+
+			Scanner aa = new Scanner(System.in);
+			System.out.println("\n ");
+			int e = aa.nextInt();
+
+			Scanner b = new Scanner(System.in);
+			System.out.println("\n ");
+			String her = b.next();
+
+			Scanner bb = new Scanner(System.in);
+			System.out.println("\n ");
+			int ed = bb.nextInt();
+
+			if (e > ed) {
+				System.out.print("\n e" + "");
+				System.out.print("\n :" + "" + "\n \n");
+			} else {
+				System.out.print("\n " + "");
+				System.out.print("\n " + "" + "\n \n");
+			}
+
+			taller4.main(null);
+
+		}
+                if (i == 6) {
+			System.out.print(i + ") "
+					+ "");
+
+			Scanner a = new Scanner(System.in);
+			System.out.println("\n ");
+			String he = a.next();
+
+			Scanner aa = new Scanner(System.in);
+			System.out.println("\n ");
+			int e = aa.nextInt();
+
+			Scanner b = new Scanner(System.in);
+			System.out.println("\n ");
+			String her = b.next();
+
+			Scanner bb = new Scanner(System.in);
+			System.out.println("\n ");
+			int ed = bb.nextInt();
+
+			if (e > ed) {
+				System.out.print("\n e" + "");
+				System.out.print("\n :" + "" + "\n \n");
+			} else {
+				System.out.print("\n " + "");
+				System.out.print("\n " + "" + "\n \n");
+			}
+
+			taller4.main(null);
+
+		}
+                 if (i == 0) {
+            System.out.print("Cerrando...");
+            System.exit(0);
+        }
+                
                 
                 
 	}
