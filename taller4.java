@@ -101,7 +101,7 @@ public class taller4 {
 			System.out.println("\n ingresa la nota 4");
 			double nota4 = e.nextDouble();
 
-			double total= ((nota1*nota2*nota3*nota4)/4);
+			double total= (nota1+nota2+nota3+nota4)/4;
 
 
 
