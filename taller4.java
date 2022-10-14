@@ -105,15 +105,15 @@ public class taller4 {
 
 
 
-			if (total >= 3) {
-				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Gana "+ "\n \n");
+			if (total >= 3.0) {
+				System.out.print("\n Nombre:" +nestu+ "nota : " +total+" Gana "+ "\n \n");
 			}
-			if(total < 3 && total >= 2) 
+			if(total < 2.9 && total >= 2.0) 
                         {
-				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Habilita "+ "\n \n");
+				System.out.print("\n Nombre:" +nestu+ "nota : " +total+" Habilita "+ "\n \n");
 			}
-			 else{
-				System.out.print("\n Nombre:" +nestu+ "nota: " +total+" Pierde "+ "\n \n");
+                        else if(total<1.9){
+				System.out.print("\n Nombre:" +nestu+ "nota : " +total+" Pierde "+ "\n \n");
 			}
 
 			
